@@ -1,0 +1,53 @@
+@import 'element-plus/theme-chalk/dark/css-vars.css';
+@import url('./font/iconfont.css');
+
+@font-face {
+  font-family: 'Alibaba';
+  src: url('./font/Alibaba.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'baidu';
+  src: url('./font/baidu.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MFLiHei';
+  src: url('./font/MFLiHei.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'shuma';
+  src: url('./font/shuma.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'youshe';
+  src: url('./font/youshe.ttf') format('truetype');
+}
+
+html {
+  font-size: 19.2px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.display {
+  display: flex;
+}
+
+.justifycontent {
+
+  justify-content: space-between;
+}
+.position{
+  position: absolute;
+}
+
+/* 背景不重复通用规则 */
+body, div, section, main, article, header, footer {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
